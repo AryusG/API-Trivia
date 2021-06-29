@@ -49,7 +49,7 @@ class QuizInterface:
                                      justify="center")
             self.true_button.config(state="disabled")
             self.false_button.config(state="disabled")
-            
+
     def check_answer_true(self):
         answer = self.quiz.check_answer("True")
         self.give_feedback(answer)
